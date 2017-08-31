@@ -1,0 +1,6 @@
+Find your usb device
+sudo fdisk -l //example /dev/sdb
+Unmount it.
+sudo umount /dev/sdb
+Copy iso using dd
+sudo dd if=/path/to/ubuntu/installtion/media.iso of=/dev/sdb bs=1M
